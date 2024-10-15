@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//stefanie alterou.
 void f() 
 { 
    static int i;

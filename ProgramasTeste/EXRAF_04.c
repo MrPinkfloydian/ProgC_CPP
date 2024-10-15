@@ -1,12 +1,16 @@
 #include<stdio.h>
 
-int main()
-{ 
-   int x = 3;
-   
-   x += 2;
-   x =+ 2;
+int x = 5;
 
+int* f() 
+{
+   return &x;
+}
+
+int main()
+{	
+   *f() = 10;
+   
    printf("%d", x);
 
    return 0;
